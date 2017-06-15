@@ -1,0 +1,291 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+h1 {
+  color: white;
+  font-size: 40px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  height: 60%;
+  width: 240px;
+  margin-top: 20px;
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #033048;
+     font-size: 24px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     background-color: #f0efef;
+     font-weight: 300;
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  background-color: #033048;
+  overflow: auto;
+
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 300px;
+  color: #f9e42e;
+  font-size: 24px;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signup {
+  color: white;
+  text-align: center;
+  background-color: #f9e42e;
+  clear: both;
+  height: 100px;
+  padding: 20px;
+  padding-bottom: 40px;
+
+
+}
+nav a {
+  color: #f9e42e;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav {
+  text-align: right;
+  padding-top: -30%;
+  float: right;
+  line-height: 33.6px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+button {
+   background-color: #033048;
+   color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  height: 70px;
+  overflow: auto;
+  font-size: 24px;
+
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.articles {
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+
+.main {
+  overflow: auto;
+}
+
+h3 {
+  font-weight: 800;
+  color: #033048;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.readmore {
+  text-align: right;
+  font-size: 24px;
+
+}
+
+.readmore a{
+   color: #033048;
+   font-weight: 800;
+   text-decoration: none;
+   font-size: 18px;
+  
+}
+
+h4 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+.about {
+  font-size: 20px;
+  color: #033048;
+}
+
+.aboutrelaxr {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+p {
+  color: gray;
+  font-size: 20px;
+}
+
+article > p:first-letter{
+  font-size: 90px;
+  color: gray;
+  line-height: 65px;
+  margin-bottom: -15px;
+  float: left;
+  padding-top:10px;
+  padding-right: 10px;
+}
+
+.ad {
+  color:#033048;
+  font-weight: 800;
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+article {
+
+  border-bottom: solid 0.5px #033048;
+  padding-bottom: 20px;
+
+}
+
+.facebook {
+  padding-top: 20px;
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  padding-bottom: 40px;
+
+}
+
+.twitter {
+  margin-top: 20px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 40px;
+ 
+ }
+
+ .twitter a {
+  text-decoration: none;
+ }
+
+ .facebook a {
+  text-decoration: none;
+ }
+
+ a:hover { 
+   color: yellow;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
